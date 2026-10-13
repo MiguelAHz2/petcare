@@ -1,0 +1,19 @@
+# Dependencias y builds locales
+node_modules/
+dist/
+.vercel/
+
+# Variables de entorno (esta app no usa, por seguridad)
+.env
+.env.*
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+.idea/
+.vscode/
+
+# Herramientas locales de Claude
+.claude/
